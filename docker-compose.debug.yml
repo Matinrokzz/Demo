@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  endpointcc:
+    image: endpointcc
+    build:
+      context: .
+      dockerfile: ./Dockerfile
